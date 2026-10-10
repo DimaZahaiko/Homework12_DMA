@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_img_tx_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_img_tx" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="104,530.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="104,678.601 ns"></ZoomEndTime>
+      <Cursor1Time time="104,645.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="317"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_img_tx/diff_clock_rtl_clk_p" type="logic">
+      <obj_property name="ElementShortName">diff_clock_rtl_clk_p</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/diff_clock_rtl_clk_n" type="logic">
+      <obj_property name="ElementShortName">diff_clock_rtl_clk_n</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/reset_rtl" type="logic">
+      <obj_property name="ElementShortName">reset_rtl</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/btns_4bits_tri_i" type="array">
+      <obj_property name="ElementShortName">btns_4bits_tri_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btns_4bits_tri_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/in_clk_0" type="logic">
+      <obj_property name="ElementShortName">in_clk_0</obj_property>
+      <obj_property name="ObjectShortName">in_clk_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/in_data_0" type="array">
+      <obj_property name="ElementShortName">in_data_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/in_valid_0" type="logic">
+      <obj_property name="ElementShortName">in_valid_0</obj_property>
+      <obj_property name="ObjectShortName">in_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/in_ready_0" type="logic">
+      <obj_property name="ElementShortName">in_ready_0</obj_property>
+      <obj_property name="ObjectShortName">in_ready_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/FRAME_WIDTH" type="array">
+      <obj_property name="ElementShortName">FRAME_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/FRAME_HEIGHT" type="array">
+      <obj_property name="ElementShortName">FRAME_HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_HEIGHT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/FRAME_BYTES" type="array">
+      <obj_property name="ElementShortName">FRAME_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/frame_rx_axis_0_m_axis_TDATA" type="array">
+      <obj_property name="ElementShortName">frame_rx_axis_0_m_axis_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_rx_axis_0_m_axis_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/frame_rx_axis_0_m_axis_TLAST" type="logic">
+      <obj_property name="ElementShortName">frame_rx_axis_0_m_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">frame_rx_axis_0_m_axis_TLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/frame_rx_axis_0_m_axis_TREADY" type="logic">
+      <obj_property name="ElementShortName">frame_rx_axis_0_m_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">frame_rx_axis_0_m_axis_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/frame_rx_axis_0_m_axis_TVALID" type="logic">
+      <obj_property name="ElementShortName">frame_rx_axis_0_m_axis_TVALID</obj_property>
+      <obj_property name="ObjectShortName">frame_rx_axis_0_m_axis_TVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_AWADDR" type="array">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_AWBURST" type="array">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_AWLEN" type="array">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_AWREADY" type="logic">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_AWVALID" type="logic">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_WDATA" type="array">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_WLAST" type="logic">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_WLAST</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_WREADY" type="logic">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_WREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_img_tx/dut/img_rx_i/axi_dma_0_M_AXI_S2MM_WVALID" type="logic">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_S2MM_WVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_S2MM_WVALID</obj_property>
+   </wvobject>
+</wave_config>

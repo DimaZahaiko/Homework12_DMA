@@ -1,0 +1,4 @@
+domain_path: D:/FPGA_homeworks_12plus/12_DMA/DZ_DMA/vitis/platform_img_rx/export/platform_img_rx/sw/standalone_microblaze_0
+app_src_dir: C:\AMDDesignTools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c
